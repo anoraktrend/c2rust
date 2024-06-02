@@ -12,12 +12,12 @@ members = [
     "c2rust-build-paths",
     "c2rust-transpile",
     "dynamic_instrumentation",
-    "pdg",
-]
-exclude = [
-    "analysis/tests",
+    "pdg",    
     "c2rust-macros",
     "c2rust-refactor",
+    ]
+exclude = [
+    "analysis/tests",
     "examples",
     "tests",
 ]
