@@ -31,6 +31,7 @@ time-macros = "=0.2.6"
 
 [build-dependencies]
 c2rust-build-paths = { path = "../c2rust-build-paths", version = "0.18.0" }
+c2rust-refactor = { path = "../c2rust-refactor", version = "0.18.0" }
 
 [features]
 # Force static linking of LLVM
